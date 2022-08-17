@@ -1,0 +1,180 @@
+*{
+margin: 0;
+padding: 0;
+}
+body
+ {
+    background-image:
+        url("https://images.hdqwalls.com/download/jeep-extreme-mudder-aw-1366x768.jpg");
+    height: 768px;
+    width: 1366px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+/* #welcome{color:white;
+text-align: center;
+font-size: 40px;
+}
+#welcome{
+font-family:  Helvetica, Arial, Verdana, Tahoma, sans-serif;
+}
+#admin{color:orange;
+text-align: center;
+font-size: 30px;
+font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
+}
+#customer{color:orange;
+text-align: center;
+font-size: 30px;
+font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
+} */
+.menu{
+width: 400px;
+float: left;
+height: 70px;
+}
+ul{
+float: left;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+ul li{
+list-style: none;
+margin-left: 62px;
+margin-top: 27px;
+font-size: 20px; 
+}
+ul li a{
+text-decoration: none;
+color: #fff;
+font-family:  Helvetica, Arial, Verdana, Tahoma, sans-serif;
+font-weight: bold;
+transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+color: #ff7200;
+}
+.search{
+width: 330px;
+float: left;
+margin-left: 270px;
+}
+.srch{
+font-family:  Helvetica, Arial, Verdana, Tahoma, sans-serif;
+width: 200px;
+height: 40px;
+background: transparent;
+border: 1px solid #ff7200;
+margin-top: 13px;
+color: #fff;
+border-right: none;
+font-size: 16px;
+float: left;
+padding: 10px;
+border-bottom-left-radius: 5px;
+border-top-left-radius: 5px;
+}
+.btn{
+width: 100px;
+height: 40px;
+background: #ff7200;
+border: 2px solid #ff7200;
+margin-top: 13px;
+color: #fff;
+font-size: 15px;
+border-bottom-right-radius: 5px;
+}
+.btn:focus {
+	outline: none;
+}
+.srch:focus {
+	outline: none;
+}
+.form{
+width: 250px;
+height: 380px;
+background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+position: absolute;
+top: -20px;
+left: 1000px;
+border-radius: 10px;
+padding: 25px;
+}
+.form h2{
+width: 220px;
+font-family:  Helvetica, Arial, Verdana, Tahoma, sans-serif;
+text-align: center;
+color: #ff7200;
+font-size: 22px;
+background-color: #fff;
+border-radius: 10px;
+margin: 2px;
+padding: 8px;
+}
+.form input{
+
+width: 240px;
+height: 35px;
+background: transparent;
+border-bottom: 1px solid #ff7200;
+border-top: none;
+border-right: none;
+border-left: none;
+color: #fff;
+font-size: 15px;
+letter-spacing: 1px;
+margin-top: 30px;
+font-family:  Helvetica, Arial, Verdana, Tahoma, sans-serif;
+
+}
+.form input:focus {
+outline: none;
+}
+::placeholder{
+color: #fff;
+font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
+
+}
+.btnn{
+width:240px;
+height: 40px;
+background: #ff7200;
+border: none;
+margin-top: 30px;
+font-size: 18px;
+border-radius: 10px;
+cursor: pointer;
+color: #fff;
+transition: 0.4s ease;
+ }
+ .btnn:hover {
+	background: #fff;
+	color: #ff7200;
+}
+.btnn a{
+text-decoration: none;
+color: #000;
+font-weight: bold;
+}
+.form .link{
+
+font-size: 17px;
+font-family:  Helvetica, Arial, Verdana, Tahoma, sans-serif;
+padding-top: 20px;
+text-align: center;
+color: #fff;
+}
+
+.form .link a{
+text-decoration: none;
+color: #ff7200;
+}
+.liw{
+padding-top: 15px;
+padding-bottom: 10px;
+text-align: center;
+color: #fff;
+}
